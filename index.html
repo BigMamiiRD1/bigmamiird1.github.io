@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BigMamiiRD - Enlaces Oficiales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0e0e10;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .floating-images {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .float-img {
+      position: absolute;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.05;
+      filter: blur(2px);
+      border-radius: 50%;
+      animation: float 30s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-30px) scale(1.05); }
+      100% { transform: translateY(0px) scale(1); }
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #9146FF;
+      margin: 30px 0 10px;
+    }
+
+    .presentation {
+      font-size: 18px;
+      background-color: #3f0349e0;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 90%;
+    }
+
+    .orbit-container {
+      position: relative;
+      width: 100%;
+      max-width: 320px;
+      height: 320px;
+      margin: 40px auto;
+    }
+
+    .center-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #9146FF;
+      background-image: url('https://cdn.discordapp.com/attachments/1327589992913965087/1364004320462376980/big_mami_perfil_de_twitch-removebg_1.png?ex=68081783&is=6806c603&hm=c59222d73cb935811751f1b657be7ce126fa1df91f4886b101f3e76602894a28&​');
+      background-size: cover;
+      background-position: center;
+      z-index: 3;
+      box-shadow: 0 0 25px #000000aa;
+    }
+
+    .orbit-icons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+
+    .social-icon {
+      position: absolute;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: #3b048c;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+      text-shadow: 0 0 5px black;
+    }
+
+    .icon2 { transform: rotate(-20deg) translate(100px) rotate(20deg); background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png'); }
+    .icon4 { transform: rotate(60deg) translate(83px) rotate(-60deg); background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg'); }
+    .icon5 { transform: rotate(140deg) translate(110px) rotate(-140deg); background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968819.png'); }
+    .icon6 { transform: rotate(195deg) translate(150px) rotate(-195deg); background-image: url('https://cdn-icons-png.flaticon.com/512/3046/3046122.png'); }
+    .icon7 { transform: rotate(260deg) translate(160px) rotate(-260deg); background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111370.png'); }
+
+    .social-label {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      text-align: center;
+      font-size: 9px;
+      color: white;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="floating-images">
+    <div class="float-img" style="
+      top: -5%;
+      left: 18%;
+      width: 900px;
+      height: 900px;
+      background-image: url('https://files.kick.com/images/user/38626571/profile_image/conversion/a7f5a3c3-2479-4fc6-896a-6c821ead2292-fullsize.webp');
+      animation-delay: 0s;
+    "></div>
+
+    <div class="float-img" style="
+      top: 40%;
+      left: 50%;
+      width: 500px;
+      height: 500px;
+      background-image: url('https://cdn.discordapp.com/attachments/1327589992913965087/1364004320462376980/big_mami_perfil_de_twitch-removebg_1.png?ex=68081783&is=6806c603&hm=c59222d73cb935811751f1b657be7ce126fa1df91f4886b101f3e76602894a28&');
+      animation-delay: 5s;
+    "></div>
+  </div>
+
+  <h1>BigMamiiRD</h1>
+
+  <div class="presentation">
+    QELOKE SOY YO <strong>BigMamiiRD</strong> Y AQUÍ TIENES LOS LINKS 🔥
+  </div>
+
+  <div class="orbit-container">
+    <div class="center-img"></div>
+    <div class="orbit-icons">
+      <a href="https://instagram.com/big_mamiird" class="social-icon icon2" target="_blank"><span class="social-label">Instagram</span></a>
+      <a href="https://youtube.com/@big_mamiird" class="social-icon icon4" target="_blank"><span class="social-label">YouTube</span></a>
+      <a href="https://www.twitch.tv/big_mamiird" class="social-icon icon5" target="_blank"><span class="social-label">Twitch</span></a>
+      <a href="https://www.tiktok.com/@big_mamiird" class="social-icon icon6" target="_blank"><span class="social-label">TikTok</span></a>
+      <a href="https://discord.gg/sdFGpYH8CR" class="social-icon icon7" target="_blank"><span class="social-label">Discord</span></a>
+    </div>
+  </div>
+</body>
+</html>
